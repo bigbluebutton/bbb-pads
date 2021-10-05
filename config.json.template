@@ -1,0 +1,13 @@
+{
+  "etherpad": {
+    "host": "127.0.0.1",
+    "port": 9001,
+    "version": "1.2.13",
+    "apikey": ETHERPAD_APIKEY
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "password": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "bbb-pads",
+  "version": "1.0.0",
+  "description": "BigBlueButton's pads manager",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrobmarin/bbb-pads.git"
+  },
+  "keywords": [
+    "bigbluebutton",
+    "etherpad"
+  ],
+  "author": "Pedro Beschorner Marin <pedrobmarin@gmail.com>",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pedrobmarin/bbb-pads/issues"
+  },
+  "homepage": "https://github.com/pedrobmarin/bbb-pads#readme",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "redis": "^3.1.2"
+  }
+}
