@@ -5,6 +5,9 @@
     "version": "1.2.13",
     "apikey": ETHERPAD_APIKEY
   },
+  "log": {
+    "level": "info"
+  },
   "redis": {
     "host": "127.0.0.1",
     "port": 6379,
