@@ -11,6 +11,13 @@
   "redis": {
     "host": "127.0.0.1",
     "port": 6379,
-    "password": null
+    "password": null,
+    "channels": {
+      "publish": "to-akka-apps-redis-channel",
+      "subscribe": [
+        "from-akka-apps-redis-channel",
+        "from-etherpad-redis-channel"
+      ]
+    }
   }
 }
