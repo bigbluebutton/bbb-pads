@@ -7,4 +7,3 @@ api.call('checkToken').then(response => {
 }).catch(() => {
   logger.error('etherpad', 'apikey', 'mismatch');
 });
-
