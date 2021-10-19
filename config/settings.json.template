@@ -4,7 +4,10 @@
     "host": "127.0.0.1",
     "port": 9001,
     "version": "1.2.14",
-    "apikey": ETHERPAD_APIKEY
+    "apikey": ETHERPAD_APIKEY,
+    "session": {
+      "ttl": 21600000
+    }
   },
   "log": {
     "level": "info"
