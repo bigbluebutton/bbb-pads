@@ -12,6 +12,10 @@
   "log": {
     "level": "info"
   },
+  "monitor": {
+    "enabled": true,
+    "interval": 3600000
+  },
   "redis": {
     "host": "127.0.0.1",
     "port": 6379,
