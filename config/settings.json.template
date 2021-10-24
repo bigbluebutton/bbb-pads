@@ -7,6 +7,9 @@
     "apikey": ETHERPAD_APIKEY,
     "session": {
       "ttl": 21600000
+    },
+    "update": {
+      "throttle": 15000
     }
   },
   "log": {
