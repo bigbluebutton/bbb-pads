@@ -3,8 +3,10 @@
     "scheme": "http",
     "host": "127.0.0.1",
     "port": 9001,
-    "version": "1.2.14",
-    "apikey": ETHERPAD_APIKEY,
+    "api": {
+      "version": "1.2.14",
+      "key": ETHERPAD_API_KEY
+    },
     "session": {
       "ttl": 21600000
     },
