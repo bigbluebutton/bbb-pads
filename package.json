@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pedrobmarin/bbb-pads.git"
+    "url": "git+https://github.com/bigbluebutton/bbb-pads.git"
   },
   "keywords": [
     "bigbluebutton",
@@ -17,9 +17,9 @@
   "author": "Pedro Beschorner Marin <pedrobmarin@gmail.com>",
   "license": "LGPL-3.0",
   "bugs": {
-    "url": "https://github.com/pedrobmarin/bbb-pads/issues"
+    "url": "https://github.com/bigbluebutton/bbb-pads/issues"
   },
-  "homepage": "https://github.com/pedrobmarin/bbb-pads#readme",
+  "homepage": "https://github.com/bigbluebutton/bbb-pads#readme",
   "dependencies": {
     "axios": "^0.22.0",
     "express": "^4.17.1",
