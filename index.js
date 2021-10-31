@@ -11,5 +11,5 @@ api.call('checkToken').then(response => {
   server.start();
   monitor.start();
 }).catch(() => {
-  logger.error('apikey', 'mismatch');
+  logger.fatal('api key', 'mismatch');
 });
