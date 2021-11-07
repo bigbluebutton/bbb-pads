@@ -6,7 +6,7 @@ const Logger = require('./lib/utils/logger');
 
 const logger = new Logger('bbb-pads');
 
-api.call('checkToken').then(response => {
+api.call('checkToken').then(() => {
   subscriber.start();
   server.start();
   monitor.start();
