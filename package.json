@@ -23,7 +23,7 @@
   "homepage": "https://github.com/bigbluebutton/bbb-pads#readme",
   "dependencies": {
     "axios": "^0.22.0",
-    "diff": "^5.0.0",
+    "bbb-diff": "^1.0.0",
     "express": "^4.17.1",
     "http-proxy": "^1.18.1",
     "lodash": "^4.17.21",
