@@ -1,6 +1,6 @@
 {
   "name": "bbb-pads",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "BigBlueButton's pads manager",
   "scripts": {
     "start": "node index.js",
