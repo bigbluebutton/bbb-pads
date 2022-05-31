@@ -2,6 +2,9 @@
   "name": "bbb-pads",
   "version": "1.2.1",
   "description": "BigBlueButton's pads manager",
+  "engines": {
+    "node": ">=16"
+  },
   "scripts": {
     "start": "node index.js",
     "lint": "./node_modules/.bin/eslint lib/**",
