@@ -3,6 +3,7 @@ const subscriber = require('./lib/redis/subscriber');
 const monitor = require('./lib/utils/monitor');
 const server = require('./lib/express/server');
 const Logger = require('./lib/utils/logger');
+const prometheus = require('./lib/utils/prometheus');
 
 const logger = new Logger('bbb-pads');
 
@@ -30,6 +31,7 @@ const start = () => {
       subscriber.start();
       server.start();
       monitor.start();
+      prometheus.start();
     }).catch(() => abort('key-mismatch'));
   }).catch((error) => {
     logger.warn('starting', error);
