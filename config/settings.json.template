@@ -41,5 +41,13 @@
         "from-etherpad-redis-channel"
       ]
     }
+  },
+  "prometheus": {
+    "enabled": false,
+    "host": "localhost",
+    "port": 9003,
+    "path": "/metrics",
+    "collectCustomMetrics": true,
+    "collectDefaultMetrics": true
   }
 }
