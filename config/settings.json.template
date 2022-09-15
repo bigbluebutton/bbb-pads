@@ -11,7 +11,7 @@
       "ttl": 21600000
     },
     "update": {
-      "throttle": 15000
+      "throttle": 3000
     }
   },
   "express": {
