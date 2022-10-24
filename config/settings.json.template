@@ -31,17 +31,17 @@
       "id": "notes",
       "permission": {
         "MODERATOR": true,
-        "VIEWER": true,
+        "VIEWER": true
       },
-      "capacity": 0,
+      "capacity": 0
     },
     "captions": {
       "id": "captions",
       "permission": {
         "MODERATOR": true,
-        "VIEWER": false,
+        "VIEWER": false
       },
-      "capacity": 1,
+      "capacity": 1
     },
   },
   "monitor": {
