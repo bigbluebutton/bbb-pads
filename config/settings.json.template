@@ -42,7 +42,7 @@
         "VIEWER": false
       },
       "capacity": 1
-    },
+    }
   },
   "monitor": {
     "enabled": true,
