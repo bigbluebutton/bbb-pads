@@ -1,6 +1,6 @@
 {
   "name": "bbb-pads",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "BigBlueButton's pads manager",
   "engines": {
     "node": ">=16"
@@ -26,8 +26,8 @@
   "homepage": "https://github.com/bigbluebutton/bbb-pads#readme",
   "dependencies": {
     "@mconf/bbb-diff": "^1.2.0",
-    "axios": "^0.22.0",
-    "express": "^4.17.3",
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
     "http-proxy": "^1.18.1",
     "lodash": "^4.17.21",
     "prom-client": "^14.1.1",
