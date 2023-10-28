@@ -26,7 +26,7 @@
   "homepage": "https://github.com/bigbluebutton/bbb-pads#readme",
   "dependencies": {
     "@mconf/bbb-diff": "^1.2.0",
-    "axios": "^1.4.0",
+    "axios": "^1.6.0",
     "express": "^4.18.2",
     "http-proxy": "^1.18.1",
     "lodash": "^4.17.21",
