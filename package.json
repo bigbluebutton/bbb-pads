@@ -1,6 +1,6 @@
 {
   "name": "bbb-pads",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "BigBlueButton's pads manager",
   "engines": {
     "node": ">=16"
