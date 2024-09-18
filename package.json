@@ -27,7 +27,7 @@
   "dependencies": {
     "@mconf/bbb-diff": "^1.2.0",
     "axios": "^1.7.4",
-    "express": "^4.19.2",
+    "express": "^4.20.0",
     "http-proxy": "^1.18.1",
     "lodash": "^4.17.21",
     "prom-client": "^14.1.1",
