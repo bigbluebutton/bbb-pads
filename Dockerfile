@@ -6,12 +6,14 @@ COPY package*.json ./
 
 ENV NODE_ENV=production
 
-RUN npm ci --omit=dev
+RUN apk add jq && npm ci --omit=dev
 
 COPY . .
+COPY entrypoint.sh /entrypoint.sh
 
-RUN cp config/settings.json.template config/settings.json
-
+RUN touch config/settings.json && chown node config/settings.json
 USER node
 
 CMD [ "npm", "start" ]
+
+ENTRYPOINT [ "/entrypoint.sh" ] 
