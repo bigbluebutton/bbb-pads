@@ -7,7 +7,7 @@ cat config/settings.json.template | \
   sed "s/ETHERPAD_API_KEY/\"$ETHERPAD_API_KEY\"/g" | \
   jq '.etherpad.host = "etherpad"' | \
   jq '.express.host = "0.0.0.0"' | \
-  jq '.redis.host = "redis"' >> $TARGET
+  jq '.redis.host = "redis"' > $TARGET
 
 
 cd /app
