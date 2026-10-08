@@ -5,7 +5,13 @@
     "port": 9001,
     "api": {
       "version": "1.2.14",
-      "key": ETHERPAD_API_KEY
+      "key": ETHERPAD_API_KEY,
+      "auth": {
+        "method": "oauth2",
+        "clientId": "bbb-pads",
+        "tokenPath": "/oidc/token",
+        "refreshMargin": 60
+      }
     },
     "session": {
       "ttl": 21600000
